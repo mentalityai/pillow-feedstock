@@ -12,7 +12,7 @@ source:
     - backport_pr_2624.patch
 
 build:
-  number: 1
+  number: 5
 
 requirements:
   build:
@@ -20,12 +20,12 @@ requirements:
     - setuptools
     - zlib 1.2.8
     - libtiff >=4.0.3,<4.0.8
-    - jpeg 9*
+    - libjpeg-turbo *
     - freetype 2.7
     - tk 8.5.*
   run:
     - python
-    - jpeg 9*
+    - libjpeg-turbo *
     - zlib 1.2.8
     - freetype 2.7
     - libtiff >=4.0.3,<4.0.8
